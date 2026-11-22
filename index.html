@@ -27,6 +27,8 @@ header{background:linear-gradient(160deg,#3f8299,var(--dk));color:#fff;padding:2
 .badges span{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);padding:4px 12px;border-radius:20px;font-size:13px}
 .dl{display:inline-flex;align-items:center;gap:12px;background:var(--acc);color:#103a34;font-weight:800;font-size:20px;padding:16px 30px;border-radius:18px;margin-top:22px;box-shadow:0 8px 24px rgba(0,0,0,.2);transition:.2s}
 .dl:hover{transform:translateY(-2px)}
+.cta{display:flex;gap:12px;flex-wrap:wrap}.dl.web{background:#fff;color:#1f4f62}
+.vid{width:100%;border-radius:20px;display:block;background:#000;box-shadow:0 10px 30px rgba(31,79,98,.18)}
 .dl small{display:block;font-weight:500;font-size:12px;opacity:.8}
 .card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 4px 18px rgba(31,79,98,.06)}
 .lift{margin-top:-36px}
@@ -64,8 +66,9 @@ footer{background:var(--dk);color:#dbe8ec;text-align:center;padding:26px 0;margi
    <div style="flex:1;min-width:260px">
     <h1>الكيمياء 11</h1>
     <p>تطبيق الكيمياء للصف الحادي عشر – المسار الأكاديمي (المنهاج الأردني).<br>كل ما تحتاجه للفصلين الأول والثاني في تطبيق واحد، يعمل دون إنترنت.</p>
-    <div class="badges"><span>📚 الفصلان الأول والثاني</span><span>📴 يعمل دون إنترنت</span><span>🎁 تجربة مجانية 10 أيام</span><span>🤖 أندرويد</span></div>
-    <a class="dl" href="Chemistry11.apk" download>⬇️ <span>تحميل التطبيق<small>ملف APK · حوالي 13 ميجابايت</small></span></a>
+    <div class="badges"><span>📚 الفصلان الأول والثاني</span><span>📴 يعمل دون إنترنت</span><span>🎁 تجربة مجانية 10 أيام</span><span>🤖 أندرويد</span><span>🍏 آيفون</span><span>💻 كمبيوتر</span></div>
+    <div class="cta"><a class="dl" href="Chemistry11.apk" download>⬇️ <span>تحميل لأندرويد<small>ملف APK · حوالي 13 ميجابايت</small></span></a>
+    <a class="dl web" href="app/">🌐 <span>افتحه على الآيفون والكمبيوتر<small>من المتصفح مباشرة · دون تحميل</small></span></a></div>
    </div>
   </div>
  </div>
@@ -77,6 +80,9 @@ footer{background:var(--dk);color:#dbe8ec;text-align:center;padding:26px 0;margi
   <b>لماذا الكيمياء 11؟</b>
   <p style="color:var(--mut);margin-top:4px">لأن الطالب لا يحتاج معه إلى أي مصدر آخر: شرح مبسط لكل درس، وأمثلة محلولة، ومئات الأسئلة، وحلول كتاب الأنشطة والتجارب، وكتاب الطالب كاملًا داخل التطبيق.</p>
  </div>
+
+ <h2>🎬 شاهد شرح التطبيق</h2>
+ <video class="vid" controls preload="metadata" poster="poster.jpg" playsinline><source src="video.mp4" type="video/mp4"></video>
 
  <h2>✨ ماذا يقدّم التطبيق؟</h2>
  <div class="grid">
@@ -110,7 +116,7 @@ footer{background:var(--dk);color:#dbe8ec;text-align:center;padding:26px 0;margi
    <li>الوحدة 4: مشتقات المركّبات الهيدروكربونية (الهاليدات والكحولات، الكربونيل والحموض، المبلمرات)</li></ul></div>
  </div>
 
- <h2>🔧 طريقة التثبيت</h2>
+ <h2>🔧 طريقة التثبيت على أندرويد</h2>
  <div class="card">
   <ol class="steps">
    <li>اضغط زر <b>«تحميل التطبيق»</b> من هاتف أندرويد وانتظر حتى يكتمل التنزيل.</li>
@@ -122,6 +128,17 @@ footer{background:var(--dk);color:#dbe8ec;text-align:center;padding:26px 0;margi
   <p class="note">يعمل على أندرويد 6 فما فوق. بعد التثبيت لا يحتاج التطبيق إلى إنترنت.</p>
  </div>
 
+ <h2>🍏 على الآيفون والكمبيوتر</h2>
+ <div class="card">
+  <ol class="steps">
+   <li>افتح الرابط <b dir="ltr">chemistry.dahshansoft.com/app</b> أو اضغط زر <b>«افتحه على الآيفون والكمبيوتر»</b>.</li>
+   <li><b>على الآيفون:</b> افتحه من <b>Safari</b>، واضغط زر المشاركة <b>⬆️</b> ثم <b>«إضافة إلى الشاشة الرئيسية»</b>، فتظهر أيقونة التطبيق مع تطبيقاتك.</li>
+   <li><b>على الكمبيوتر:</b> افتحه من Chrome أو Edge، واضغط <b>«تثبيت»</b> عند ظهوره (أو أيقونة التثبيت في شريط العنوان).</li>
+   <li>افتح التطبيق من الأيقونة دائمًا، فيعمل دون إنترنت بعد أول استخدام، وتبقى بياناتك وتفعيلك محفوظة.</li>
+  </ol>
+  <p class="note">التفعيل مرتبط بالجهاز والمتصفح: كل جهاز يحتاج رمز تفعيل خاصًا به. لا تمسح بيانات المتصفح حتى لا يضيع التفعيل.</p>
+ </div>
+
  <h2>🔑 التجربة والتفعيل</h2>
  <div class="price">
   <div class="card"><b style="font-size:18px">🎁 تجربة مجانية 10 أيام</b><p style="color:var(--mut)">كل ميزات التطبيق مفتوحة لمدة 10 أيام من أول تشغيل.</p></div>
@@ -130,7 +147,8 @@ footer{background:var(--dk);color:#dbe8ec;text-align:center;padding:26px 0;margi
  </div>
 
  <div style="text-align:center;margin-top:40px">
-  <a class="dl" href="Chemistry11.apk" download>⬇️ <span>تحميل الكيمياء 11<small>مجانًا لمدة 10 أيام</small></span></a>
+  <div class="cta" style="justify-content:center"><a class="dl" href="Chemistry11.apk" download>⬇️ <span>تحميل لأندرويد<small>مجانًا لمدة 10 أيام</small></span></a>
+  <a class="dl web" style="border:2px solid #2f6f86" href="app/">🌐 <span>آيفون وكمبيوتر<small>من المتصفح</small></span></a></div>
  </div>
 
 </main>
